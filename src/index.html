@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joy美食记录</title>
+    <script type="text/javascript">
+		(function(psdw){
+			var dpr=0 , rem=0 , scale=0;
+			var htmlDOM=document.documentElement;
+			dpr=window.devicePixelRatio;
+			var currentWidth=htmlDOM.clientWidth;
+			scale=currentWidth/psdw;
+			rem=psdw/10;
+			rem=rem*scale;
+			htmlDOM.style.fontSize=rem+'px';
+			htmlDOM.setAttribute('data-dpr',dpr)
+		})(750)
+	</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>

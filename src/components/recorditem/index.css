@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+.userinfo{
+    display: flex;
+}
+.userimg {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+}
+.icon {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.operation{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,10 @@
+.classify {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.classify-item {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+}

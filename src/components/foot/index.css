@@ -1,0 +1,23 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 1.2rem;
+    width: 100%;
+    box-shadow: 0 -1PX 1PX rgba(0, 0, 0, 0.1);
+}
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item {
+    height: 100%;
+    flex: 1;
+    display: flex;
+
+    align-items:center;
+    justify-content: center;
+    /* vertical-align: middle; */
+}
